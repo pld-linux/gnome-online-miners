@@ -1,17 +1,17 @@
 Summary:	GNOME Online Miners - crawling through your online contents
 Summary(pl.UTF-8):	GNOME Online Miners - indeksowanie własnych treści w sieci
 Name:		gnome-online-miners
-Version:	3.14.3
-Release:	2
+Version:	3.20.0
+Release:	1
 License:	GPL v2+
 Group:		Libraries
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-online-miners/3.14/%{name}-%{version}.tar.xz
-# Source0-md5:	c3cf5708635084e1b0983e0f94d50b64
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-online-miners/3.20/%{name}-%{version}.tar.xz
+# Source0-md5:	febc0b1a90edf704b6c1dba290f6d70a
 URL:		https://wiki.gnome.org/Projects/GnomeOnlineMiners
 BuildRequires:	gfbgraph-devel >= 0.2.2
 BuildRequires:	glib2-devel >= 1:2.35.1
 BuildRequires:	gnome-online-accounts-devel >= 3.13.3
-BuildRequires:	grilo-devel >= 0.2.6
+BuildRequires:	grilo-devel >= 0.3.0
 BuildRequires:	libgdata-devel >= 0.15.2
 BuildRequires:	libzapojit-devel >= 0.0.2
 BuildRequires:	pkgconfig
@@ -19,7 +19,7 @@ BuildRequires:	tracker-devel >= 1.0
 Requires:	gfbgraph >= 0.2.2
 Requires:	glib2 >= 1:2.35.1
 Requires:	gnome-online-accounts-libs >= 3.13.3
-Requires:	grilo >= 0.2.6
+Requires:	grilo >= 0.3.0
 Requires:	libgdata >= 0.15.2
 Requires:	libzapojit >= 0.0.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
