@@ -1,12 +1,12 @@
 Summary:	GNOME Online Miners - crawling through your online contents
 Summary(pl.UTF-8):	GNOME Online Miners - indeksowanie własnych treści w sieci
 Name:		gnome-online-miners
-Version:	3.20.0
+Version:	3.20.1
 Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-online-miners/3.20/%{name}-%{version}.tar.xz
-# Source0-md5:	febc0b1a90edf704b6c1dba290f6d70a
+# Source0-md5:	1ef8de6f53b03c94215130895141c065
 URL:		https://wiki.gnome.org/Projects/GnomeOnlineMiners
 BuildRequires:	gfbgraph-devel >= 0.2.2
 BuildRequires:	glib2-devel >= 1:2.35.1
